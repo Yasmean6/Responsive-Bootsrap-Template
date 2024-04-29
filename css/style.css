@@ -1,0 +1,115 @@
+*{
+    font-family: "Poppins", sans-serif;
+}
+section{
+    width: 100%;
+    height:auto;
+    margin-top: 70px;
+}
+/* ////////////// */
+.navbar .nav-link{
+    color: black !important;
+    font-size: 1.1em;
+}
+
+.form-control{
+    outline: none !important;
+}
+.form-control:hover{
+    border-color: #ffc527 !important;
+}
+
+.form-control:focus{
+    box-shadow: 0 0 0 0.2rem #ffc52741;
+}
+.form-control:focus,
+.form-control:hover {
+    border-color: #ffc527 !important
+}
+
+.input-group-text{
+    background-color: #ffc527 !important;
+    border-radius: 20px;
+    border: none;
+}
+
+.input-group-text a{
+    color: black!important;
+}
+
+.carousel-control-icon:hover{
+    background-color: #ffc527d4 !important;
+}
+nav .nav-link:hover, nav .nav-link:active, nav .nav-link:focus{
+    color: style="font-size: .8em; font-weight: 270;" !important;
+}
+
+nav .dropdown-item:hover{
+    color: #ffc527 !important;
+}
+
+a:hover :not(.btn, .fa-solid) ,a:focus :not(.btn) , a:active :not(.btn) {
+    color: #ffc527 !important;
+}
+
+.btn-hover:hover{
+    color: #ffc527 !important;
+}
+.card-hover{
+    transition: .5s;
+}
+.card-hover:hover{
+    transform: translateY(-1.1em);
+}
+
+.img-zoom-per{
+    position: relative;
+    overflow: hidden;
+}
+
+.img-zoom{
+    position: relative;
+    overflow: hidden;
+}
+
+.img-zoom img{
+    transition: 1s;
+}
+
+.img-zoom img:hover{
+    transform: scale(1.1);
+}
+.sub-btn{
+    position: absolute; 
+    top:10; 
+    left: 5%;  
+    border-radius: 100px; 
+    z-index: 5;
+}
+
+.sub-btn:focus{
+    box-shadow: 0 0 0 0.2rem #ffc52741 !important;
+}
+.sub-input:focus {
+    border-color: #ffc527 !important;
+    outline: none !important;
+    box-shadow: 0 0 0 0.2rem #ffc527a5 !important;
+}
+
+.sub-btn{
+    outline: none !important;
+}
+/* ///////////// */
+@media (max-width:1196px) {
+    nav .navbar-form{
+        visibility: hidden;
+    }
+    .sub-btn{
+        position: absolute !important; 
+        top:10; 
+        left: 2.8%;  
+        border-radius: 100px; 
+        z-index: 5;
+    }
+
+}
